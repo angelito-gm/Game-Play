@@ -4,10 +4,6 @@ body{
 	background: linear-gradient(to right, #FFFFFF, #FFEFBA);
 
 }
-header{
-   margin: 0 auto;
-}
-
 .prueba-background, .prueba-background2{
 	background: -webkit-linear-gradient(yellow,red);
 	-webkit-background-clip: text;
