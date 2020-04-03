@@ -147,9 +147,6 @@ main .section-3 p, ul{
 }
 main .section-4{
 	text-align: center;
-	margin: 0 auto;
-	box-shadow: 5px 5px 3px orange;
-
 }
 main .section-4 button{
 	padding: 15px;
@@ -159,9 +156,6 @@ main .section-4 button{
 	color: black;
 	font-weight: bolder;
 	font-size: 30px;
-	top: 50px;
-	bottom: 50px;
-        margin: 10px auto;
 }
 
 
