@@ -102,7 +102,7 @@ main .section-2 p{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: tomato;
-	text-align: justify;
+	text-align: left;
 	font-family: 'Shrikhand';
 	font-size: 16px;
 }
