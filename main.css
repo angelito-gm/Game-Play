@@ -166,4 +166,4 @@ main .section-4 button{
 
 .section-1, .section-2{
 margin-left: -10px;
-}
+}.section-2{ text-align: left; }
