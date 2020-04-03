@@ -1,0 +1,169 @@
+body{
+	background: #FFEFBA;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+
+}
+header{
+   margin: 0 auto;
+}
+
+.prueba-background, .prueba-background2{
+	background: -webkit-linear-gradient(yellow,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Shrikhand', cursive;
+}
+
+.prueba-background h1{
+	font-size: 32px;
+	margin-left: ;
+}
+
+.prueba-background2 p{
+	font-size: 20px;
+	margin-left: ;
+	margin-top: -8px;
+}
+.first-block .h2-dos{
+	margin-bottom:;
+}
+
+.first-block h1{
+	background: -webkit-linear-gradient(black,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Montez', cursive;
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+.gameplay{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Shrikhand', cursive;
+	background: -webkit-linear-gradient(yellow,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+}
+
+.gameplay-b{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Shrikhand', cursive;
+	background: -webkit-linear-gradient(yellow,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+}
+
+.h2-dos{
+	margin-top: ;
+}
+
+.first-block{
+	text-align: center;
+}
+
+.ganador{
+	background: -webkit-linear-gradient(tomato,gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Shrikhand';
+	font-size: 40px;
+}
+
+main{
+	text-align: justify-all;
+	margin-left: 30px;
+
+}
+
+main .section-1 h1{
+	background: -webkit-linear-gradient(black,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Montez', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+	margin-bottom: ;
+}
+main .section-1 p{
+	background: -webkit-linear-gradient(black,gray);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Shrikhand';
+	font-size: 16px;
+}
+
+main .section-2 p{
+	background: -webkit-linear-gradient(gray,black);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Shrikhand';
+	font-size: 16px;
+}
+.YouTube{
+	background: -webkit-linear-gradient(tomato,darkred);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-size: 20px;
+}
+
+main .section-2 h3, .section-3 h3{
+	background: -webkit-linear-gradient(tomato,gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Montez', cursive;
+	font-size: 55px;
+	margin-bottom: -7px;
+}
+main .section-3 p, ul{
+	background: -webkit-linear-gradient(tomato,gold);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-family: 'Shrikhand';
+	font-size: 16px;
+}
+.facebook{
+	background: -webkit-linear-gradient(blue,darkgray);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: tomato;
+	font-size: 20px;
+}
+.booyah{
+	background: -webkit-linear-gradient(darkgray,orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: orange;
+	font-size: 20px;
+}
+main .section-4{
+	text-align: center;
+	margin: 0 auto;
+	box-shadow: 5px 5px 3px orange;
+
+}
+main .section-4 button{
+	padding: 15px;
+	background: orange;
+	border-radius: 10px;
+	font-family: 'Shrikhand', cursive;
+	color: black;
+	font-weight: bolder;
+	font-size: 30px;
+	top: 50px;
+	bottom: 50px;
+}
