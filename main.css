@@ -146,7 +146,7 @@ main .section-3 p, ul{
 	font-size: 20px;
 }
 main .section-4{
-	margin: 10px auto;
+	/*margin: 10px auto;*/
 }
 main .section-4 button{
 	padding: 15px;
@@ -156,6 +156,7 @@ main .section-4 button{
 	color: black;
 	font-weight: bolder;
 	font-size: 30px;
+	margin-left: -15px;
 }
 
 
