@@ -162,3 +162,8 @@ main .section-4 button{
 	top: 50px;
 	bottom: 50px;
 }
+
+
+.section-1, .section-2{
+margin-left: -10px;
+}
