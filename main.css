@@ -30,7 +30,7 @@ body{
 }
 
 .first-block h1{
-	background: -webkit-linear-gradient(black,red);
+	background: -webkit-linear-gradient(white,white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: tomato;
