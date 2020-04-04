@@ -35,7 +35,8 @@ body{
 	-webkit-text-fill-color: transparent;
 	color: tomato;
 	font-family: 'Montez', cursive;
-	font-size: 60px;
+	font-size: 75px;
+	font-weight: bolder;
 	margin-bottom: 0;
 }
 
