@@ -118,9 +118,9 @@ main .section-2 p{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: tomato;
-	text-align: left;
+	text-align: ;
 	font-family: 'Shrikhand';
-	font-size: 16px;
+	font-size: 18px;
 }
 .YouTube{
 	background: -webkit-linear-gradient(tomato,darkred);
@@ -145,7 +145,7 @@ main .section-3 p, ul{
 	-webkit-text-fill-color: transparent;
 	color: tomato;
 	font-family: 'Shrikhand';
-	font-size: 16px;
+	font-size: 18px;
 }
 .facebook{
 	background: -webkit-linear-gradient(blue,darkgray);
