@@ -114,13 +114,13 @@ main .section-1 p{
 }
 
 main .section-2 p{
-	background: -webkit-linear-gradient(gray,black);
+	/*background: -webkit-linear-gradient(gray,black);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: tomato;
 	text-align: justify;
 	font-family: 'Shrikhand';
-	font-size: 18px;
+	font-size: 18px;*/
 }
 .YouTube{
 	background: -webkit-linear-gradient(tomato,darkred);
