@@ -152,20 +152,20 @@ body{
 <body>
 	<div class="contenedor">
 
-		<form action="mailto:angelitogm625@gmail.com" class="form">
+		<form action="correo.php" method="post" class="form">
 			<div class="form-header">
 				<h1 class="form-title">S<span>orteo DIAMANTES FreeFire</span></h1>
 				<h2 class="form-title">R<span>egistro de participantes</span></h2>
 			</div>
 
 			<label for="nombre" class="for-label">Nombre</label>
-			<input type="text" class="form-input" placeholder="Escriba su nombre" id="nombre" name="" required="yes">
+			<input type="text" class="form-input" placeholder="Escriba su nombre" id="nombre" name="nombre" required="yes">
 
 			<!--label for="direccion" class="for-label">Dirección</label>
-			<input type="text" class="form-input" placeholder="Escriba su direccion" id="direccion" name=""required="yes"-->
+			<input type="text" class="form-input" placeholder="Escriba su direccion" id="direccion" name="" required="yes"-->
 
 			<label for="correo" class="for-label">Correo electrónico</label>
-			<input type="text" class="form-input" placeholder="Escriba su correo electrónico" id="correo" name="" required="yes">
+			<input type="text" class="form-input" placeholder="Escriba su correo electrónico" id="correo" name="email" required="yes">
 
 			<p>Seguir la página en Facebook</p>
 			<a href="https://www.facebook.com/Game-Play-106455401003178" target="_blank">
@@ -187,7 +187,7 @@ body{
 			<br /><br />
 
 			<label for="mensaje" class="for-label">Mensaje (opcional)</label>
-			<textarea type="text" class="form-textarea" placeholder="Escriba su mensaje" id="mensaje" name=""></textarea>
+			<textarea type="text" class="form-textarea" placeholder="Escriba su mensaje" id="mensaje" name="mensaje"></textarea>
 
 			<input type="submit" class="btn-submit" value="Enviar participación" name="">
 		</form>
