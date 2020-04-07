@@ -152,7 +152,7 @@ body{
 <body>
 	<div class="contenedor">
 
-		<form action="correo.php" method="POST" class="form">
+		<form action="" method="POST" class="form">
 			<div class="form-header">
 				<h1 class="form-title">S<span>orteo DIAMANTES FreeFire</span></h1>
 				<h2 class="form-title">R<span>egistro de participantes</span></h2>
@@ -192,5 +192,24 @@ body{
 			<input type="submit" class="btn-submit" value="Enviar participación" name="">
 		</form>
 	</div>
+
+<?php   
+
+ $destinatario = 'angelitogm625@gmail.com';
+ $nombre = $_POST['nombre'];
+ $email = $_POST['email'];
+ $mensaje = $_POST['mensaje'];
+ 
+ $header = 'Nuevo participante en el sorteo de los 5000 diamantes';
+ 
+ $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
+
+ mail($nombre, $email, $mensaje, $header);
+ echo '<script>alert('Mensaje enviado exitosamente!')</script>'
+ echo '<script> setTimeout(\"location.href:'index.html'\")</script>'
+
+
+?>
+
 </body>
 </html>
